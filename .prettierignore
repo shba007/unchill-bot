@@ -1,0 +1,31 @@
+# Build files
+dist
+
+# Node dependencies
+node_modules
+
+# Package Manager
+package.json
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Test
+coverage
+
+# Env files
+.env*
+!.env.example
+
+# Temporary Files
+temp
+
+# Playground Files
+playground/web
