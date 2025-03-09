@@ -91,7 +91,7 @@ export async function getSequel(id?: string): Promise<Sequel | Sequel[]> {
     const { results } = await notion.databases.query({ database_id: NOTION_SEQUEL_DB_ID })
 
     // @ts-ignore
-    return results.map(({ id, properties }) => {
+    return results.map(({ _id, properties }) => {
       return {
         Name: properties.Name.title[0].text.content,
         'Original Name': properties['Original Name'].rich_text[0]?.text.content,
