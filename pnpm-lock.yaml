@@ -31,49 +31,49 @@ importers:
         version: 2.0.3
     devDependencies:
       '@changesets/cli':
-        specifier: ^2.28.0
+        specifier: 2.28.1
         version: 2.28.1
       '@commitlint/cli':
-        specifier: ^19.7.1
+        specifier: 19.7.1
         version: 19.7.1(@types/node@22.13.5)(typescript@5.7.3)
       '@commitlint/config-conventional':
-        specifier: ^19.7.1
+        specifier: 19.7.1
         version: 19.7.1
       '@dotenvx/dotenvx':
-        specifier: ^1.36.0
+        specifier: 1.38.2
         version: 1.38.2
       '@types/node':
-        specifier: ^22.13.4
+        specifier: 22.13.5
         version: 22.13.5
       '@vitest/coverage-v8':
-        specifier: ^3.0.5
+        specifier: 3.0.7
         version: 3.0.7(vitest@3.0.7(@types/node@22.13.5)(jiti@2.4.2)(yaml@2.7.0))
       changelogen:
-        specifier: ^0.5.7
+        specifier: 0.5.7
         version: 0.5.7(magicast@0.3.5)
       eslint:
-        specifier: ^9.20.1
+        specifier: 9.21.0
         version: 9.21.0(jiti@2.4.2)
       eslint-config-unjs:
-        specifier: ^0.4.2
+        specifier: 0.4.2
         version: 0.4.2(eslint@9.21.0(jiti@2.4.2))(typescript@5.7.3)
       husky:
-        specifier: ^9.1.7
+        specifier: 9.1.7
         version: 9.1.7
       jiti:
-        specifier: ^2.4.2
+        specifier: 2.4.2
         version: 2.4.2
       prettier:
-        specifier: ^3.5.1
+        specifier: 3.5.2
         version: 3.5.2
       typescript:
-        specifier: ^5.7.3
+        specifier: 5.7.3
         version: 5.7.3
       unbuild:
         specifier: 3.3.1
         version: 3.3.1(typescript@5.7.3)
       vitest:
-        specifier: ^3.0.5
+        specifier: 3.0.7
         version: 3.0.7(@types/node@22.13.5)(jiti@2.4.2)(yaml@2.7.0)
 
 packages:
@@ -1591,6 +1591,7 @@ packages:
   eslint-plugin-markdown@5.1.0:
     resolution: {integrity: sha512-SJeyKko1K6GwI0AN6xeCDToXDkfKZfXcexA6B+O2Wr2btUS9GrC+YgwSyVli5DJnctUHjFXcQ2cqTaAmVoLi2A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: Please use @eslint/markdown instead
     peerDependencies:
       eslint: '>=8'
 
@@ -1780,6 +1781,7 @@ packages:
   git-raw-commits@4.0.0:
     resolution: {integrity: sha512-ICsMM1Wk8xSGMowkOmPrzo2Fgmfo4bMHLNX6ytHjajRJUqvHOw/TFapQ+QG75c3X/tTDDhOSRPGC52dDbNM8FQ==}
     engines: {node: '>=16'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   glob-parent@5.1.2:
@@ -1792,6 +1794,7 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   global-directory@4.0.1:
@@ -2839,6 +2842,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   term-size@2.2.1:
     resolution: {integrity: sha512-wK0Ri4fOGjv/XPy8SBHZChl8CM7uMc5VML7SqiQ0zG7+J5Vr+RMQDoHa2CNT6KHUnTGIXH34UDMkPzAUyapBZg==}
