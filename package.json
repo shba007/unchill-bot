@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@inquirer/prompts": "^7.3.2",
-    "@notionhq/client": "^2.2.16",
+    "@notionhq/client": "^5.23.3",
     "chalk": "^5.4.1",
     "citty": "^0.1.6",
     "consola": "^3.4.0",
